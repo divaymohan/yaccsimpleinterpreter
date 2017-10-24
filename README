@@ -1,0 +1,20 @@
+This is a simple interpreter using lex and yacc;
+which can support only basic arithmetic operations;
+addition,division,subtraction and multiplication;
+
+output:
+
+divay@divay-Vostro-3546:~$ ./a.out
+a=5;
+b=5;
+c=a+b;
+print a;
+printing  5
+print b;
+printing  5
+print c;
+printing  10
+d=100;
+m=39;
+print d+m;
+printing  139
