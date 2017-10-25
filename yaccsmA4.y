@@ -23,6 +23,7 @@ line : assignment ';'  {;}
 	|line assignment ';' {;}
 	|line print exp ';' {printf("printing  %d\n",$3);}
 	|line exit_command ';' {exit(EXIT_SUCCESS);}
+	;
 	
 assignment : identifier '=' exp  {updateSymbolval($1,$3);}
              ;
